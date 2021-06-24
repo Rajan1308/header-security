@@ -10,7 +10,7 @@ Header Security through htaccess
 # https://www.keycdn.com/blog/http-security-headers
 
 # Main security options in .htaccess file:
-
+```bash
 # BEGIN security
 <IfModule mod_headers.c>
     Header set Age "216000"
@@ -33,3 +33,4 @@ Header Security through htaccess
     Header append Vary "Accept-Encoding, User-Agent, Referer"
 </IfModule>
 # END BEGIN security
+```
